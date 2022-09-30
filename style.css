@@ -1,0 +1,50 @@
+.heading{
+  width: 100%;
+  line-height: 3;
+  border-radius: 0px;
+}
+
+.heading h1{
+    letter-spacing: 5px;
+    text-shadow: 2.5px 0.5px yellow;
+    display: inline;
+}
+.heading button {
+    float: right;
+    animation-name: k;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    color: blueviolet;
+}
+
+@keyframes k{
+    from{border: 1px solid green;}
+    to{border:  3px solid yellow;}
+}
+
+body{
+    background-size: cover;
+}
+
+canvas{
+    animation-name: l;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 30px;
+}
+
+@keyframes l{
+from{border: 2px solid blue;}
+to{border: 5px solid red;}
+}
+
+.footer{
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    color: green;
+    background-color: brown;
+    line-height: 3;
+    width: 100%;
+}
